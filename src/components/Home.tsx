@@ -9,5 +9,4 @@ function Home() {
 }
 
 export default Home
-git config --global user.name "rafi"
-git config --global user.email "rafiraf4121@gmail.com"
+
