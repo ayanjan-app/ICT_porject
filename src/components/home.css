@@ -88,7 +88,7 @@
     width: 100%;
     background: linear-gradient(to right,rgb(156, 151, 151) ,rgb(24, 45, 67) ,rgb(1, 5, 22));
     position: relative;
-    top: 350px;
+    top: 400px;
 
 }
 .footer1 p{
@@ -133,12 +133,12 @@ top: 15px;
 
 
 
-
 .large{
 height: 100px;
 width: 100%;
 background-color: rgb(9, 43, 64);
 border-radius: 20px;
+margin-top: -50px;
 }
 .small{
 
@@ -214,7 +214,7 @@ font-size: 20px;
 .main h1{
     color: white;
  position: absolute;
- top: 300px;
+ top: 150px;
  left: 600px;
 
     
@@ -222,7 +222,7 @@ font-size: 20px;
 .main h2{
     color: white;
 position: absolute;
-top: 350px;
+top: 200px;
 left: 400px;
 
 }
@@ -232,7 +232,7 @@ left: 400px;
     width: 300px;
     border-radius: 30px;
     position: absolute;
-    top: 410px;
+    top: 310px;
     left: 500px;
 }
 
@@ -242,6 +242,7 @@ height: 400px;
 width: 400px;
 
 border-radius: 20px;
+margin-top: 65px;
 
 
 }
@@ -921,4 +922,238 @@ top: 15px;
   .banner-content h2 {
     font-size: 1.75rem;
   }
+}
+
+
+
+
+
+/* CSS code for Login component */
+.login{
+  height: 550px;
+  width: 100%;
+  background-color: rgb(9, 43, 64);
+  border-radius: 50px;
+  margin-top: 10px;
+   
+}
+.action{
+  height: 450px;
+  width: 300px;
+  background-color: rgb(199, 169, 169);
+position: absolute;
+  top: 170px;
+  left: 450px;
+  border-radius: 20px;
+}
+.action h2{
+border-bottom: red 2px solid;
+width: 150px;
+margin-left: 70px;
+border-radius: 10px;
+}
+.la{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  border-radius: 10px;
+  width: 100px;
+
+
+  border-bottom: red 2px solid;
+
+}
+.action input{
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.all{
+    font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  border-radius: 10px;
+
+
+  border-bottom: red 2px solid;
+}
+.action button{
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: rgb(9, 43, 64);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  border: none;
+  cursor: pointer;
+}
+.action button:hover{
+  background-color: rgb(5, 31, 46);
+}
+.action p{
+  position: absolute;
+  top: 320px;
+  left: 80px;
+}
+.ink{
+   position: absolute;
+  top: 370px;
+  left: 130px;
+}
+
+
+/* CSS code for Sinup component */
+.si-login{
+  height: 550px;
+  width: 100%;
+  background-color: rgb(9, 43, 64);
+  border-radius: 50px;
+  margin-top: 10px;
+   
+}
+.si-action{
+  height: 450px;
+  width: 300px;
+  background-color: rgb(199, 169, 169);
+position: absolute;
+  top: 170px;
+  left: 450px;
+  border-radius: 20px;
+}
+.si-action h2{
+border-bottom: red 2px solid;
+width: 150px;
+margin-left: 70px;
+border-radius: 10px;
+}
+.si-la{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  border-radius: 10px;
+  width: 100px;
+
+
+  border-bottom: red 2px solid;
+
+}
+.si-llaa{
+ 
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  border-radius: 10px;
+  width: 100px;
+
+
+  border-bottom: red 2px solid;
+
+}
+
+.si-action input{
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.si-action button{
+    font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  border-radius: 10px;
+
+
+  border-bottom: red 2px solid;
+}
+.si-action button{
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: rgb(9, 43, 64);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  border: none;
+  cursor: pointer;
+}
+.si-action button:hover{
+  background-color: rgb(5, 31, 46);
+}
+.si-action p{
+  position: absolute;
+  top: 320px;
+  left: 80px;
+}
+.ink{
+   position: absolute;
+  top: 370px;
+  left: 130px;
+}
+.si-lla{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  border-radius: 10px;
+  width: 100px;
+  border-bottom: 2px solid red;
+}
+
+.si-laa{
+    font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 290px;
+  left: 30px;
+  border-radius: 10px;
+  width: 200px;
+  border-bottom: 2px solid red;
+
+
+
+}
+.si-action button{
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: rgb(9, 43, 64);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 370px;
+  left: 100px;
+  border: none;
+  cursor: pointer;
+}
+.si-ink{
+   position: absolute;
+  top: 420px;
+  left: 130px;
 }
